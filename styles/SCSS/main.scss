@@ -1,0 +1,8 @@
+@import 'slideOne';
+@import 'slideTwo';
+@import 'slideThree';
+
+.section{
+    min-height:100vh !important;    
+    background-size: cover;
+}

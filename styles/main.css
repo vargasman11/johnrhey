@@ -1,0 +1,15 @@
+#slide1 {
+  background-image: url(../img/face-1.jpg) !important;
+  background-position: center; }
+
+#slide2 {
+  background-image: url(/img/face-2.jpg);
+  background-position: center bottom; }
+  #slide2 .container p {
+    background-color: rgba(232, 236, 241, 0.75);
+    padding: 5px;
+    border-radius: 10px; }
+
+.section {
+  min-height: 100vh !important;
+  background-size: cover; }
