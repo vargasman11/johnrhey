@@ -1,13 +1,9 @@
 #slide3{
     position: relative!important;
-    
-    .fullscreen-bg{
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        overflow: hidden;
-        z-index: -100;
+    background-image: url(/img/face-2.jpg);
+    background-position: left bottom;
+
+    #sub3{
+        height: 100% !important;
     }
 }
