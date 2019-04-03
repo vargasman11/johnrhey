@@ -1,6 +1,16 @@
 @import 'slideOne';
 @import 'slideTwo';
 @import 'slideThree';
+@import 'slideFour';
+@import 'slideFive';
+
+// fonts From Google
+// font-family: 'Permanent Marker', cursive;
+// font-family: 'Fredericka the Great', cursive;
+html,
+body{
+    overflow-x: hidden;
+}
 
 .section{
     min-height:100vh !important;    
@@ -17,8 +27,13 @@
     display: none !important;
 }
 .youtube-embed{
-    position: relative !important;
-    width: auto!important;
-    height: auto !important;
-  
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    .youtube-embed{
+       height: 50vh !important;
+    }
 }

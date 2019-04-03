@@ -1,11 +1,25 @@
 #slide2{
     background-image: url(../img/face-3.jpg) !important;
-    background-position: center center;
+    background-position: center center;   
+
     .container{
-        p{
             background-color: rgba(232, 236, 241, .75);
             padding: 5px;
-            border-radius: 10px;            
+            border-radius: 10px;  
+            width: 50%;
+            overflow: none;
+            float: left;
+            margin: 100px 0 100px 10px;
+            h3{
+                font-family: 'Fredericka the Great', cursive;
+            }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #slide2{
+        .container{
+            width: 90%;
         }
     }
 }

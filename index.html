@@ -6,24 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Johnny Rhey</title>
+    <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Permanent+Marker" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- custom css -->
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <!-- onscroll library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- animate css library -->
+    <link rel="stylesheet" href="styles/animate.css">
+
 </head>
 
 <body>
     <div id="outer-wrapper">
         <!-- slide 1  -->
-        <div class="container-fluid section d-flex" id="slide1">
-            <div class="col align-self-center">
-                <h1 class="display-1 text-center">JOHNY RHEY</h1>
+        <div class="container-fluid section d-flex" id="slide1"> 
+                <h3 class="text-center text-light mt-4 animated fadeInRight" style="position:absolute; left:40%; transform: translateX(-50%); font-family: 'Permanent Marker', cursive;">Scroll down &DownArrow;</h3>                 
+            <div class="col align-self-end mb-4">
+                <h1 class="display-1 text-center text-light animated fadeInLeft">JOHNY RHEY</h1>
             </div>
         </div>
         <!-- Slide 2 -->
         <div class="conatiner-fluid section d-flex" id="slide2">
             <div class="col align-self-center">
-                <h3 class="text-center text-light display-4">Johny Rhey Is</h3>
-                <div class="container">
+                <div class="container" data-aos="fade-right">
+                    <h3 class="text-center display-4">Johny Rhey Is</h3>
                     <p>A Nashville based
                         country artist who was raised in Central
                         Florida. Rhey found his country roots early
@@ -48,24 +60,25 @@
             </div>
         </div>
         <!-- Section 3 -->
-        <div class="container-fluid section embed-responsive d-flex justify-content-center text-center" id="slide3">   
-            
-            <div class="row align-self-center text-center">
+        <div class="container-fluid section embed-responsive d-flex justify-content-center text-center" id="slide3">
+
+            <div class="row align-self-center text-center" data-aos="zoom-in">
                 <div class="col-12 pb-4">
-                    <h1 class="display-2 font-weight-normal text-success bg-light">Singles</h1>
+                    <h1><img src="img/spotify.png" alt=""> <img src="img/itunes.png" alt=""> <img src="img/pandora.jpg"
+                            alt=""> <img src="img/amazon.png" alt=""></h1>
                 </div>
-                
-                <div class="col-sm-10 col-md-4 mx-auto">
+
+                <div class="col-sm-10 col-md-4 mx-auto" data-aos="zoom-in-right">
                     <iframe class="spotify-embed" src="https://open.spotify.com/embed/track/6UNfpTL3rrvifiJgenznHH"
                         width="300" height="380" frameborder="0" allowtransparency="true"
                         allow="encrypted-media"></iframe>
                 </div>
-                <div class="col-sm-10 col-md-4 mx-auto">
+                <div class="col-sm-10 col-md-4 mx-auto" data-aos="zoom-in-up">
                     <iframe class="spotify-embed" src="https://open.spotify.com/embed/track/12hzZGXU6oz5bNYk3D5bs6"
                         width="300" height="380" frameborder="0" allowtransparency="true"
                         allow="encrypted-media"></iframe>
                 </div>
-                <div class="col-sm-10 col-md-4 mx-auto">
+                <div class="col-sm-10 col-md-4 mx-auto" data-aos="zoom-in-left">
                     <iframe class="spotify-embed" src="https://open.spotify.com/embed/track/1h5buMD7SygYg41bukstzC"
                         width="300" height="380" frameborder="0" allowtransparency="true"
                         allow="encrypted-media"></iframe>
@@ -75,8 +88,30 @@
 
         <!-- Section 4 -->
 
+        <div class="conatiner-fluid section embed-responsive" id="slide4">
+            <iframe class="youtube-embed embed-responsive-item" width="560" height="315"
+                src="https://www.youtube.com/embed/5I-whXXSnOw?controls=0&autoplay=0&loop=1&modestbranding=0"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
 
-
+        <!-- Section 5 -->
+        <div class="conatiner-fluid section d-flex justify-content-center" id="slide5">
+            <div class="row align-self-start">
+                <div class="col-12 pb-4 mx-auto" id="list-container">
+                    <h1 class="text-center text-light"  data-aos="fade-up"
+                    data-aos-duration="2000">Follow</h1>
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><a href="https://www.youtube.com/user/JohnRheyMusic" target="_blank" id="youtube"><i class="fab fa-youtube"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/JohnRheyMusic/" id="facebook" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="https://twitter.com/JohnRheyMusic?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" id="twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/johnrheymusic/?hl=en" target="_blank" id="instagram"><i class="fab fa-instagram"></i></a></li>
+                    </ul>    
+                    <h1 class="text-center text-light" style="margin-top:175px" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">John <br> Rhey</h1>      
+                </div>
+            </div>      
     </div>
 
 
@@ -91,6 +126,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <!-- onscroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+            AOS.init();
+          </script>
 </body>
 
 </html>

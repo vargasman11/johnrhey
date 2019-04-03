@@ -1,0 +1,46 @@
+#slide5{
+background-image: url(../img/face-4.jpg) !important;
+background-position: center top;   
+#list-container{
+    margin-top: 20%;
+    h1{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 5em !important;
+    }
+    ul{
+        li{
+            a{
+                i{
+                    font-size: 3em;
+                }
+            }            
+        }
+    }
+
+
+
+#youtube{
+    color:red;
+}
+#twitter{
+    color: #0084b4;
+}
+#facebook{
+    color: #3b5998;
+}
+#instagram{
+    color: #fbad50;
+}
+}
+}
+
+i:hover{
+    transform: scale(1.75); 
+}
+@media only screen and (max-width: 1000px) {
+    #slide5{
+       height: 100vh !important;
+       width: auto;
+       margin-top: -50vh !important;
+    }
+}
